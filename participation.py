@@ -29,3 +29,8 @@ pets = {
     }
 
 }
+
+
+for pet in pets:
+
+    print("Pet: ", pet, ", Pet type:", pets[pet]["animal"],", Owner name: ", pets[pet]["owner"]);
